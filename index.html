@@ -12,12 +12,12 @@
 <body>
     <header>
         <h1 class="hidden">My Awesome Marvel Characters Build</h1>
-        <img src="images/logo.svg" alt="Marvel Logo">
+        <img id="main-logo" src="images/logo.svg" alt="Marvel Logo">
     </header>
 
     <!--images go here-->
     <main>
-        <nav id="idcharacter-nav">
+        <nav id="character-nav">
             <ul class="characters">
                 <li><img src="images/cap.jpeg" alt="Captain America"></li>
                 <li><img src="images/carol.jpeg" alt="Captain Marvel"></li>
@@ -27,9 +27,14 @@
                 <li><img src="images/widow.jpeg" alt="Black Widow"></li>
             </ul>
         </nav>
+
+        <article>
+            <h3>Choose Your Hero</h3>
+            <p>Use your mouse to hover/ click to discover more about each hero.</p>
+        </article>
     </main>
 
-    <footer>
+    <footer class="sticky_footer">
         <h3>All images &copy; Marvel</h3>
     </footer>
 </body>
